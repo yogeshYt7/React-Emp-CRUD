@@ -5,7 +5,7 @@ FROM openjdk:latest
 WORKDIR /app/backend
 
 # Copy the JAR file to the working directory
-COPY ./danceapp.jar ./
+COPY ./emp.jar ./
 
 # Expose port 8080
 EXPOSE 8080
